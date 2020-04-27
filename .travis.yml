@@ -13,10 +13,8 @@ node_js:
   - 12
 
 env:
-  - CODE_VERSION=1.37.0
-  - CODE_VERSION=1.39.0
-  - CODE_VERSION=1.40.0
-  - CODE_VERSION=latest
+  - CODE_TYPE=stable
+  - CODE_TYPE=insider
 
 install:
   - npm install
